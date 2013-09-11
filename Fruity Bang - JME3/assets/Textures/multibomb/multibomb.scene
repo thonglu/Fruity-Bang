@@ -1,0 +1,49 @@
+<scene formatVersion="1.0.1" exported_by="Cole" export_time="1367061168.582622" previous_export_time="1367060632.605966" >
+  <nodes >
+    <node name="Armature" >
+      <position z="-0.000000" x="0.000000" y="0.000000" />
+      <rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="multibomb" >
+        <position z="-0.000000" x="0.000000" y="0.000000" />
+        <rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />
+        <scale z="1.000000" x="1.000000" y="1.000000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity velocity_min="0.0" lock_trans_y="False" meshFile="multibomb.mesh" mass_radius="1.0" physics_type="STATIC" mass="1.0" damping_rot="0.10000000149011612" ghost="False" inertia_tensor="0.4000000059604645" velocity_max="0.0" lock_rot_y="False" lock_rot_x="False" lock_rot_z="False" friction_x="1.0" friction_y="1.0" friction_z="1.0" lock_trans_z="False" lock_trans_x="False" actor="False" name="multibomb" anisotropic_friction="False" damping_trans="0.03999999910593033" />
+      </node>
+    </node>
+    <node name="Sun" >
+      <position z="-0.052167" x="-3.736449" y="2.240597" />
+      <rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Sun" type="directional" powerScale="1.0" >
+        <position z="-0.052167" x="-3.736449" y="2.240597" />
+        <lightAttenuation linear="0.04" range="5000" quadratic="0.0" constant="1.0" />
+        <direction z="0.0" x="0.0" y="-1.0" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\Cole\Dropbox\Mobile Application Developement\Source Code\Models\Items\multibomb\ORGE\multibomb.001.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourBackground g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+  </environment>
+</scene>

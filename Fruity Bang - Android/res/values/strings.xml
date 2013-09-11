@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fruity Bang</string>
+    <string name="settings">Log out</string>
+    <string name="app_id">340697592718754</string>
+    <string name="get_started">Share your score via Facebook</string>
+    <string name="welcome">Share Fruity experient with your friends</string>
+    <string name="share">Share</string>
+    <string name="title">Fruity Bang</string>
+    <string name="caption">Fruity Bang: Classic bomberman in 3D on Android with ultra kute characters</string>
+    <string name="description">Kool!!! I have achieved new score in Fruity Bang</string>
+    <string name="description1">! Come and join me!</string>
+    <string name="websiteUrl">http://www.rmit.edu.vn/</string>
+    <string name="imageUrl">https://raw.github.com/damhonglinh/fruitybang/master/ic_launcher.png</string>
+    <string name="shareSuccessfully">Your score is shared</string>
+    <string name="shareCancelled">Share cancelled</string>
+    <string name="shareFail">Share fails! Please check your network connection</string>
+    <string name="yeah">Yeah</string>
+    <string name="nope">Nope</string>
+    <string name="exitConfirm">Are you sure to exit?</string>
+    <string name="exitConfirmTitle">Exit confirm</string>
+
+</resources>

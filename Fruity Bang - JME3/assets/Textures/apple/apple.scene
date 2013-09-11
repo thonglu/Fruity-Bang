@@ -1,0 +1,50 @@
+<scene export_time="1366740215.589847" formatVersion="1.0.1" previous_export_time="1366739381.083116" exported_by="Cole" >
+  <nodes >
+    <node name="Armature" >
+      <position x="0.000000" y="0.000000" z="-0.000000" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="Apple" >
+        <position x="0.000000" y="0.000000" z="-0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity meshFile="Apple.mesh" velocity_min="0.0" friction_z="1.0" friction_y="1.0" velocity_max="0.0" actor="False" inertia_tensor="0.4000000059604645" damping_rot="0.10000000149011612" anisotropic_friction="False" lock_rot_y="False" lock_rot_x="False" physics_type="STATIC" lock_rot_z="False" mass="1.0" name="Apple" mass_radius="1.0" lock_trans_z="False" lock_trans_x="False" lock_trans_y="False" ghost="False" damping_trans="0.03999999910593033" friction_x="1.0" />
+      </node>
+    </node>
+    <node name="Lamp" >
+      <position x="6.708056" y="6.155931" z="-0.116956" />
+      <rotation qw="0.486230" qx="0.340288" qy="0.773732" qz="-0.221638" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Lamp" powerScale="1.0800000429153442" type="directional" shadow="true" >
+        <position x="6.708056" y="6.155931" z="-0.116956" />
+        <lightAttenuation linear="0.03333335240683057" constant="1.0" quadratic="0.0" range="5000" />
+        <direction x="-0.311" y="-0.67" z="0.674" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+        <colourShadow g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\Cole\Dropbox\Mobile Application Developement\Source Code\Models\Bomb\Apple\ORGE\Apple.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+    <colourBackground g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourDiffuse g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>

@@ -1,0 +1,79 @@
+<scene previous_export_time="1366396048.693244" export_time="1366909432.262912" exported_by="Cole" formatVersion="1.0.1" >
+  <nodes >
+    <node name="Armature" >
+      <position x="0.000000" y="0.892515" z="-0.000000" />
+      <rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="Worm" >
+        <position x="0.000000" y="0.000000" z="-0.000000" />
+        <rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity actor="False" meshFile="worm.mesh" damping_trans="0.03999999910593033" anisotropic_friction="False" damping_rot="0.10000000149011612" velocity_min="0.0" physics_type="STATIC" friction_y="1.0" inertia_tensor="0.4000000059604645" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" lock_rot_x="False" friction_z="1.0" friction_x="1.0" mass="1.0" velocity_max="0.0" mass_radius="1.0" ghost="False" name="worm" lock_rot_z="False" lock_rot_y="False" />
+      </node>
+    </node>
+    <node name="Camera" >
+      <position x="7.481132" y="5.977487" z="6.507640" />
+      <rotation qw="0.781600" qz="-0.212922" qx="0.481707" qy="0.334251" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera projectionType="perspective" name="Camera" fov="0.5033799435163735" >
+        <clipping nearPlaneDist="0.10000000149011612" near="0.10000000149011612" farPlaneDist="100.0" far="100.0" />
+      </camera>
+    </node>
+    <node name="Lamp.003" >
+      <position x="0.837667" y="8.484779" z="-6.053540" />
+      <rotation qw="0.040912" qz="-0.450531" qx="0.140945" qy="0.880615" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light type="directional" powerScale="1.4400005340576172" name="Lamp.003" shadow="true" >
+        <position x="0.837667" y="8.484779" z="-6.053540" />
+        <lightAttenuation quadratic="0.0" range="5000" linear="0.006099346304495643" constant="1.0" />
+        <direction x="-0.211" y="-0.554" z="0.805" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+        <colourShadow g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Lamp.000" >
+      <position x="-9.069320" y="8.484779" z="7.680324" />
+      <rotation qw="0.800261" qz="0.393307" qx="0.413370" qy="0.184438" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light type="directional" powerScale="1.4400005340576172" name="Lamp.000" shadow="true" >
+        <position x="-9.069320" y="8.484779" z="7.680324" />
+        <lightAttenuation quadratic="0.0" range="5000" linear="0.006099346304495643" constant="1.0" />
+        <direction x="-0.782" y="-0.349" z="0.517" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+        <colourShadow g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\Cole\Dropbox\Mobile Application Developement\Source Code\Models\Worm\ORGE\worm.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+    <colourBackground g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>
