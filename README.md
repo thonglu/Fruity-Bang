@@ -1,8 +1,10 @@
 Fruity-Bang
 ===========
 A 3D version of classical game Bomber Man.
-It is written in Java using <a href="http://jmonkeyengine.org/">JMokey game engine</a> and can run on Android.<br/><br/>
-Features:
+It is written in Java using <a href="http://jmonkeyengine.org/">JMokey game engine</a> and can run on Android.
+<br/><br/>
+
+Special features:
 <ul>
   <li>10 levels with different levels of intelligence of the NPCs.</li>
   <li>Collectable money to buy items.</li>
