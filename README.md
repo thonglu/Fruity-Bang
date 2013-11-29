@@ -10,5 +10,5 @@ Special features:
   <li>Collectable money to buy items.</li>
   <li>3 distinct items to be purchased.</li>
   <li>Android supported</li>
-  <li>Scored can be shared on Facebook (for Android version only).</li>
+  <li>Scores can be shared on Facebook (for Android version only).</li>
 </ul>
